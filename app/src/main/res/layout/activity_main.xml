@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECFFED"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/faq"
+        layout="@layout/activity_faq"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/dp_151"
+        android:layout_height="@dimen/dp_53"
+        android:layout_marginTop="71dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/isolation_mode" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="6dp"
+        android:fontFamily="@font/sfprotextbold"
+        android:gravity="center"
+        android:lineSpacingExtra="7sp"
+        android:text="@string/bo_account"
+        android:textColor="#1E1E1E"
+        android:textSize="@dimen/sp_24"
+        android:textStyle="bold"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toEndOf="@id/imageView"
+        app:layout_constraintStart_toStartOf="@id/imageView"
+        app:layout_constraintTop_toBottomOf="@id/imageView" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif_bo_account"
+        android:layout_width="@dimen/dp_0"
+        android:layout_height="@dimen/dp_232"
+        android:layout_marginHorizontal="71dp"
+        android:src="@drawable/animation"
+        app:layout_constraintBottom_toTopOf="@id/btn_create_new_bo"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView" />
+
+    <Button
+        android:id="@+id/btn_create_new_bo"
+        android:layout_width="@dimen/dp_0"
+        android:layout_height="@dimen/dp_50"
+        android:layout_marginHorizontal="27dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/green"
+        android:fontFamily="@font/sfprotextbold"
+        android:gravity="center"
+        android:text="@string/create_a_new_bo"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_16"
+        app:layout_constraintBottom_toTopOf="@id/btn_existing_bo_holder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <Button
+        android:id="@+id/btn_existing_bo_holder"
+        android:layout_width="@dimen/dp_0"
+        android:layout_height="@dimen/dp_50"
+        android:layout_marginHorizontal="27dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="79dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/sfprotextbold"
+        android:gravity="center"
+        android:text="@string/existing_bo_holder"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/sp_16"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">NewDesign</string>
+    <string name="faq">FAQ</string>
+    <string name="bo_account">BO Account</string>
+    <string name="create_a_new_bo">Create a New BO</string>
+    <string name="existing_bo_holder">Existing BO Holder with NBL SL</string>
+    <string name="open_bo_account">Open Bo Account</string>
+    <string name="review_submit">Review &amp; Submit</string>
+    <string name="identity_verification">Identity Verification</string>
+    <string name="nid">NID</string>
+    <string name="you_need_to_take_photo_upload_nid">You need to take photo / upload NID</string>
+    <string name="passport">PASSPORT</string>
+    <string name="you_need_to_take_photo_upload_passport">You need to take photo / upload Passport</string>
+    <string name="nid_verification">NID verification</string>
+    <string name="front_side_of_nid">Front Side of NID</string>
+    <string name="back_side_of_nid">Back Side of NID</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="next">Next</string>
+    <string name="or_upload_nid">Or Upload Nid</string>
+    <string name="select_profile_image">Select Profile Image</string>
+    <string name="screenshot">Screenshot</string>
+    <string name="_100">100</string>
+    <string name="tap_to_allow">Tap to allow</string>
+    <string name="access_to_your">access to your</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string-array name="faq_questions">
+        <item>"Lorem Ipsum is simply dummy text of the printing and typesetting industry?"</item>
+        <item>"Lorem Ipsum is simply dummy text?"</item>
+        <item>"Lorem Ipsum is simply dummy text of the printing and typesetting industry?</item>
+        <item>"Lorem Ipsum is simply dummy text?</item>
+        <item>"Lorem Ipsum is simply dummy text of the printing and typesetting industry?"</item>
+        <item>"Lorem Ipsum is simply dummy text?"</item>
+        <item>"Lorem Ipsum is simply dummy text of the printing and typesetting industry?</item>
+        <item>"Lorem Ipsum is simply dummy text?</item>
+        <!-- Add more months as needed -->
+    </string-array>
+
+    <!-- Array of FAQ answers corresponding to each month -->
+    <string-array name="faq_answers">
+        <item>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"</item>
+        <item>"Lorem Ipsum is simply dummy text of the printing and typesetting industry"</item>
+        <item>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</item>
+        <item>"Lorem Ipsum is simply dummy text of the printing and typesetting industry</item>
+        <item>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"</item>
+        <item>"Lorem Ipsum is simply dummy text of the printing and typesetting industry"</item>
+        <item>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</item>
+        <item>"Lorem Ipsum is simply dummy text of the printing and typesetting industry</item>
+        <!-- Add more FAQs as needed -->
+    </string-array>
+
+    <string-array name="bo_account_text">
+        <item>"DP &amp; BO Type"</item>
+        <item>"Personal Information"</item>
+        <item>"Bank/Tax Information"</item>
+        <item>"Nominee and Others\nInformation"</item>
+
+    </string-array>
+
+
+    <string-array name="bank_name">
+        <item>"Agrani Bank PLC"</item>
+        <item>"Janata Bank PLC"</item>
+        <item>"Rupali Bank PLC</item>
+        <item>"Sonali Bank PLC</item>
+        <item>"Bangladesh Krishi Bank"</item>
+        <item>"Probashi Kallyan Bank"</item>
+        <item>"Bangladesh Commerce Bank Limited</item>
+        <item>"Bank Asia Limited</item>
+        <item>"Bengal Commercial Bank Limited</item>
+        <item>"BRAC Bank PLC</item>
+        <item>"City Bank PLC</item>
+        <item>"Community Bank Bangladesh Limited</item>
+        <item>"Dhaka Bank Limited</item>
+        <item>"Dhaka Mercantile Co-Operative Bank Limited</item>
+        <item>"Dutch-Bangla Bank Limited</item>
+        <item>"Eastern Bank PLC</item>
+        <item>"IFIC Bank PLC</item>
+        <item>"Jamuna Bank Limited</item>
+        <item>"Meghna Bank Limited</item>
+        <item>"Mercantile Bank PLC</item>
+        <item>"Midland Bank Limited</item>
+        <item>"Modhumoti Bank Limited</item>
+        <item>"Mutual Trust Bank Limited"</item>
+        <item>"National Credit &amp; Commerce Bank Limited"</item>
+        <item>"NRB Bank Limited"</item>
+        <item>"NRBC Bank PLC"</item>
+        <item>"One Bank Limited"</item>
+        <item>"Premier Bank Limited"</item>
+        <item>"Prime Bank PLC"</item>
+        <item>"Pubali Bank Limited"</item>
+        <item>"Shimanto Bank Limited"</item>
+        <item>"Southeast Bank Limited"</item>
+        <item>"South Bangla Agriculture and Commerce Bank Limited"</item>
+        <item>"Trust Bank PLC"</item>
+        <item>"United Commercial Bank PLC"</item>
+        <item>"Uttara Bank PLC"</item>
+        <item>"Al-Arafah Islami Bank PLC"</item>
+        <item>"First Security Islami Bank PLC"</item>
+        <item>"Global Islami Bank PLC"</item>
+        <item>"ICB Islamic Bank PLC"</item>
+        <item>"Islami Bank Bangladesh PLC"</item>
+        <item>"Shahjalal Islami Bank PLC"</item>
+        <item>"Social Islami Bank PLC"</item>
+        <item>"Standard Bank PLC"</item>
+        <item>"Union Bank PLC"</item>
+        <item>"Padma Bank Limited"</item>
+        <item>"National Bank Limited"</item>
+        <item>"BASIC Bank PLC"</item>
+        <item>"Bangladesh Development Bank PLC"</item>
+        <item>"Rajshahi Krishi Unnayan Bank"</item>
+        <item>"Bank Al-Falah Limited (Pakistan)"</item>
+        <item>"Citibank N.A (United States of America)"</item>
+        <item>"Commercial Bank of Ceylon PLC (Sri Lanka)"</item>
+        <item>"Habib Bank Limited (Pakistan)"</item>
+        <item>"HSBC (United Kingdom)"</item>
+        <item>"National Bank of Pakistan (Pakistan)"</item>
+        <item>"Standard Chartered Bank (United Kingdom)"</item>
+        <item>"State Bank of India (India)"</item>
+        <item>"Woori Bank (South Korea)"</item>
+        <item>"Ansar VDP Unnayan Bank"</item>
+        <item>"Grameen Bank"</item>
+        <item>"Jubilee Bank"</item>
+        <item>"Karmashangosthan Bank"</item>
+        <item>"Palli Sanchay Bank"</item>
+        <item>"Bangladesh Samabaya Bank Limited"</item>
+        <item>"Agrani SME Financing Company Limited"</item>
+        <item>"Bangladesh Finance and Investment Company Limited (BD Finance)"</item>
+        <item>"Bangladesh Industrial Finance Company Limited (BIFC)"</item>
+        <item>"Bangladesh Infrastructure Finance Fund Limited (BIFFL)"</item>
+        <item>"Bay Leasing and Investment Limited"</item>
+        <item>"CVC Finance Limited"</item>
+        <item>"DBH Finance PLC (DBH)"</item>
+        <item>"Fareast Finance and Investment Limited"</item>
+        <item>"FAS Finance and Investment Limited"</item>
+        <item>"First Finance Limited"</item>
+        <item>"GSP Finance Company (Bangladesh) Limited (GSPB)"</item>
+        <item>"Hajj Finance Company Limited"</item>
+        <item>"IDLC Finance Limited"</item>
+        <item>"Industrial and Infrastructure Development Finance Company Limited (IIDFC)"</item>
+        <item>"Infrastructure Development Company Limited (IDCOL)"</item>
+        <item>"International Leasing and Financial Services Limited"</item>
+        <item>"IPDC Finance Limited"</item>
+        <item>"Islamic Finance and Investment Limited"</item>
+        <item>"LankaBangla Finance Limited"</item>
+        <item>"Lankan Alliance Finance Limited"</item>
+        <item>"Meridian Finance and Investment Limited."</item>
+        <item>"MIDAS Financing Limited. (MFL)"</item>
+        <item>"Nagad Finance PLC"</item>
+        <item>"National Finance Limited"</item>
+        <item>"National Housing Finance and Investments Limited"</item>
+        <item>"People's Leasing and Financial Services Limited"</item>
+        <item>"Phoenix Finance and Investments Limited"</item>
+        <item>"Premier Leasing and Finance Limited"</item>
+        <item>"Prime Finance and Investment Limited"</item>
+        <item>"Reliance Finance Limited"</item>
+        <item>"Saudi-Bangladesh Industrial and Agricultural Investment Company Limited (SABINCO)"</item>
+        <item>"The UAE-Bangladesh Investment Company Limited"</item>
+        <item>"Union Capital Limited"</item>
+        <item>"United Finance Limited"</item>
+        <item>"Uttara Finance and Investments Limited"</item>
+        <item>"Bangladesh House Building Finance Corporation (BHBFC)"</item>
+        <item>"Palli Karma Sahayak Foundation (PKSF)"</item>
+        <!-- Add more months as needed -->
+    </string-array>
+
+</resources>

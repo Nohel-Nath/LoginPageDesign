@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#82D285"
+    tools:context=".PersonalInformation">
+
+    <include layout="@layout/activity_faq"
+        android:id="@+id/tv_faq"/>
+
+    <TextView
+        android:id="@+id/tv_open_bo_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="85dp"
+        android:fontFamily="@font/sfprotextbold"
+        android:gravity="center"
+        android:letterSpacing="-0.02"
+        android:lineSpacingExtra="7sp"
+        android:text="@string/open_bo_account"
+        android:textColor="#1E1E1E"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_open_bo_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical"
+        android:overScrollMode="never"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_open_bo_account"
+        tools:listitem="@layout/bo_account_layout" />
+
+    <Button
+        android:id="@+id/btn_review_submit"
+        android:layout_width="@dimen/dp_320"
+        android:layout_height="@dimen/dp_50"
+        android:layout_marginBottom="40dp"
+        android:alpha=".5"
+        android:backgroundTint="#041F00"
+        android:fontFamily="@font/sfprotextregular"
+        android:gravity="center"
+        android:text="@string/review_submit"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/sp_16"
+        app:circularflow_defaultRadius="40dp"
+        app:circularflow_radiusInDP="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintCircleRadius="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

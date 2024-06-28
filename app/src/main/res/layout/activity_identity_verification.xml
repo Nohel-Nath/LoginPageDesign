@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IdentityVerification">
+
+    <TextView
+        android:id="@+id/tv_identity_verification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="92dp"
+        android:fontFamily="@font/sfprotextbold"
+        android:text="@string/identity_verification"
+        android:textColor="#090909"
+        android:textSize="@dimen/sp_20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView_id_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image_icon"
+        app:layout_constraintBottom_toTopOf="@id/view_for_nid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_identity_verification" />
+
+    <View
+        android:id="@+id/view_for_nid"
+        android:layout_width="@dimen/dp_335"
+        android:layout_height="@dimen/dp_106"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/view_drawable"
+        app:layout_constraintBottom_toTopOf="@id/view_for_passport"
+        app:layout_constraintDimensionRatio="w,335:106"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_nid"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:fontFamily="@font/sfprotextbold"
+        android:gravity="center"
+        android:text="@string/nid"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@id/tv_upload_nid"
+        app:layout_constraintEnd_toEndOf="@id/view_for_nid"
+        app:layout_constraintStart_toStartOf="@id/view_for_nid"
+        app:layout_constraintTop_toTopOf="@id/view_for_nid"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+
+    <TextView
+        android:id="@+id/tv_upload_nid"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:fontFamily="@font/sfprotextregular"
+        android:gravity="center"
+        android:letterSpacing="-0.02"
+        android:lineSpacingExtra="@dimen/sp_4"
+        android:text="@string/you_need_to_take_photo_upload_nid"
+        android:textColor="#707070"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@id/view_for_nid"
+        app:layout_constraintEnd_toEndOf="@id/view_for_nid"
+        app:layout_constraintStart_toStartOf="@id/view_for_nid"
+        app:layout_constraintTop_toBottomOf="@id/tv_nid" />
+
+
+    <View
+        android:id="@+id/view_for_passport"
+        android:layout_width="@dimen/dp_335"
+        android:layout_height="@dimen/dp_106"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="106dp"
+        android:background="@drawable/view_drawable"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="w,335:106"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tv_passport"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:fontFamily="@font/sfprotextbold"
+        android:gravity="center"
+        android:text="@string/passport"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@id/tv_upload_passport"
+        app:layout_constraintEnd_toEndOf="@id/view_for_passport"
+        app:layout_constraintStart_toStartOf="@id/view_for_passport"
+        app:layout_constraintTop_toTopOf="@id/view_for_passport"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+
+    <TextView
+        android:id="@+id/tv_upload_passport"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:fontFamily="@font/sfprotextregular"
+        android:gravity="center"
+        android:letterSpacing="-0.02"
+        android:lineSpacingExtra="@dimen/sp_4"
+        android:text="@string/you_need_to_take_photo_upload_passport"
+        android:textColor="#707070"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@id/view_for_passport"
+        app:layout_constraintEnd_toEndOf="@id/view_for_passport"
+        app:layout_constraintStart_toStartOf="@id/view_for_passport"
+        app:layout_constraintTop_toBottomOf="@id/tv_passport"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
